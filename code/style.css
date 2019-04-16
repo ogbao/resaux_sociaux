@@ -1,0 +1,90 @@
+.btn-reaction{
+      color: #212529;
+  background-color: transparent;
+  border-color: #f8f9fa;
+}
+
+.btn-reaction:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.btn-reaction:focus, .btn-reaction.focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+
+.btn-reaction.disabled, .btn-reaction:disabled {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-reaction:not(:disabled):not(.disabled):active, .btn-reaction:not(:disabled):not(.disabled).active,
+.show > .btn-reaction.dropdown-toggle {
+  color: #212529;
+  background-color: #dae0e5;
+  border-color: #d3d9df;
+}
+
+.btn-reaction:not(:disabled):not(.disabled):active:focus, .btn-reaction:not(:disabled):not(.disabled).active:focus,
+.show > .btn-reaction.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+
+.crop {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.nameUser{
+    color: blue;
+    font-weight: bold;
+}
+
+.nameUser:hover{
+    color:blueviolet;
+    font-style: oblique;
+}
+
+.crop img {
+    width: 100%;
+    height: 150px !important;
+    margin: -75px 0 0 -100px;
+}
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+
+
+
+.navbar-dark:hover
+{
+        background-color: blue;
+}
+
+/*
+body {
+    background-image: url("http://lifextech.96.lt/faucet/pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+.bg-orange{
+    background-color: #343a40 !important;
+    opacity: 0.9;    
+}*/
+
+
+
+.bg-dark
+{ 
+}

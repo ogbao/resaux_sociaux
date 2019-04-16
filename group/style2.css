@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: #1ddced;
+}
+
+a:link{
+    color:blue;
+    text-decoration:none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration:underline;
+}
+
+.minibox:hover{
+    background:#cccccc;
+    text-decoration:none;
+}
+
+.minibox2:hover{
+    background:#cccccc;
+    text-decoration:none;
+}
+
+.smallbox{
+    width:500px;
+    min-width:200px;
+    height:200px;
+    background: #ffffff;
+    margin-top:15px;
+}
+
+.smallbox2{
+    width:270px;
+    min-width:200px;
+    height:100px;
+    margin-top:15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #ffffff;
+    margin-top:15px;
+}
+
+.smallbox3{
+    width:270px;
+    min-width:200px;
+    height:300px;
+    margin-top:15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #ffffff;
+    margin-top:15px;
+}
+
+.groupbox{
+    width: 500px;
+    min-width:  100px;
+    height: 600px;
+    background: #1ddced;
+    border-radius:5px;
+    box-shadow: 0 3px #ccc;
+}
+
+.grouplist{
+    width: 300px;
+    min-width: 100px;
+    height: 600px;
+    background: #1ddced;
+    margin-left:60px;
+    border-radius:5px;
+    box-shadow: 0 3px #ccc;
+}
+
+.grouplist2{
+    width: 300px;
+    min-width: 100px;
+    height: 600px;
+    background: #1ddced;
+    margin-left:100px;
+    border-radius:5px;
+    box-shadow: 0 3px #ccc;
+}
+
+.minibox{
+    width:280px;
+    min-width:50px;
+    height:25px;
+    margin-left:10px;
+    background: #ffffff;
+    margin-top:5px;
+}
+
+.minibox2{
+    width:250px;
+    min-width:50px;
+    height:25px;
+    margin-left:10px;
+    background: #ffffff;
+    margin-top:5px;
+}
+
+
+.chat .user-photo{
+    width: 60px;
+    height: 60px;
+    background: #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chat .user-photo img{
+    width: 100%;
+}
+
+
+p.alignLeft {
+    text-align: left;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
